@@ -31,6 +31,10 @@ angular
         templateUrl: 'views/team.html',
         controller: 'TeamCtrl'
       })
+      .when('/team/:emailStub', {
+        templateUrl: 'views/team.html',
+        controller: 'TeamCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
