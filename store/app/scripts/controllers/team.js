@@ -15,6 +15,5 @@ angular.module('storeApp')
       'Karma'
     ];
     $scope.teammates = ['hi', 'bi'];
-    this.teammates = ['hi', 'bi'];
 
   });
