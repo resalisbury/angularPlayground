@@ -1,1 +1,27 @@
-<p>This is the team view.</p>
+<div ng-controller="TeamCtrl as team">
+    
+    <p>The Team:</p>
+    <p>{{params}}</p>
+
+    <ul>
+        <li ng-repeat="advisor in advisors">
+            <p>{{advisor.name}} - {{advisor.type}}</p>
+            <p ng-show="isCurrent(advisor.email)">{{advisor.email}}</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            <p>"</p>
+            
+        </li>
+    </ul>
+
+    
+</div>
+

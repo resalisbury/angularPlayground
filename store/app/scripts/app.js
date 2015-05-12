@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name storeApp
- * @description
- * # storeApp
- *
- * Main module of the application.
- */
 angular
   .module('storeApp', [
     'ngAnimate',
@@ -28,6 +20,10 @@ angular
         controller: 'AboutCtrl'
       })
       .when('/team', {
+        templateUrl: 'views/team.html',
+        controller: 'TeamCtrl'
+      })
+      .when('/team/:emailStub', {
         templateUrl: 'views/team.html',
         controller: 'TeamCtrl'
       })
