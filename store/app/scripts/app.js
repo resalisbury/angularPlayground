@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name storeApp
- * @description
- * # storeApp
- *
- * Main module of the application.
- */
 angular
   .module('storeApp', [
     'ngAnimate',
